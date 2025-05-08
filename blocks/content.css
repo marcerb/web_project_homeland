@@ -4,7 +4,13 @@
   margin: 0 auto;
 }
 
-@media (max-width: 1024px), (max-width: 544px) {
+@media (max-width: 1024px) {
+  .content__lead-image {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 544px) {
   .content__lead-image {
     max-width: 100%;
   }
