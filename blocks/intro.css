@@ -1,0 +1,43 @@
+.intro {
+  width: 830px;
+  height: 607px;
+  margin: 0 auto 0 440px;
+}
+
+.intro__title {
+  height: 173px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  text-align: left;
+}
+
+.intro__quote {
+  width: 738px;
+  height: 135px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: left;
+}
+
+.intro__quote-author {
+  width: 732px;
+  height: 33px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  display: block;
+  text-align: right;
+  padding-bottom: 32px;
+}
+
+.intro__text {
+  width: 722px;
+  height: 181px;
+  padding-top: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  text-align: left;
+}
