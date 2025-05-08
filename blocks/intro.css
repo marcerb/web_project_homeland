@@ -41,3 +41,38 @@
   line-height: 163%;
   text-align: left;
 }
+
+@media (max-width: 1024px) {
+  .intro {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .intro__title {
+    font-size: 45px;
+    width: 707px;
+    height: 147px;
+    line-height: 49px;
+  }
+
+  .intro__quote {
+    font-size: 24px;
+    width: 800px;
+    height: 136px;
+  }
+
+  .intro__quote-author {
+    width: 800px;
+  }
+
+  .intro__text {
+    font-size: 16px;
+    width: 800px;
+  }
+}
+
+@media (max-width: 544px) {
+  .intro {
+    width: 90%;
+   

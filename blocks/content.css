@@ -3,3 +3,9 @@
   height: 615px;
   margin: 0 auto;
 }
+
+@media (max-width: 1024px), (max-width: 544px) {
+  .content__lead-image {
+    max-width: 100%;
+  }
+}

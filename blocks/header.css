@@ -30,3 +30,42 @@
   line-height: 36px;
   padding-bottom: 64px;
 }
+
+@media (max-width: 1024px) {
+  .header__logo {
+    padding: 30px;
+  }
+
+  .header__title {
+    width: 530px;
+    height: 158px;
+    line-height: 79px;
+    font-size: 75px;
+  }
+
+  .header__subtitle {
+    width: 720px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 544px) {
+  .header__logo {
+    padding: 20px;
+  }
+
+  .header__title {
+    font-size: 40px;
+    line-height: 1.2;
+    width: 288px;
+    height: 88px;
+    align-content: center;
+  }
+
+  .header__subtitle {
+    width: 288px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
