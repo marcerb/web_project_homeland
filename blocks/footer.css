@@ -1,8 +1,7 @@
 .footer {
-  width: max-content;
-  height: 16px;
   margin: 0 auto;
   padding-bottom: 24px;
+  text-align: center;
 }
 
 @media (max-width: 1024px) {

@@ -1,17 +1,6 @@
 .content__lead-image {
-  width: 984px;
-  height: 615px;
+  max-width: 984px;
+  width: 100%;
+  display: block;
   margin: 0 auto;
-}
-
-@media (max-width: 1024px) {
-  .content__lead-image {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 544px) {
-  .content__lead-image {
-    max-width: 100%;
-  }
 }
