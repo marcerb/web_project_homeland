@@ -3,6 +3,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 16px;
+  margin: 0 50px 50px 65px; /*agregado en proyecto 6 */
 }
 .photo_grid_item {
   width: 100%;
