@@ -1,24 +1,24 @@
-.photo_grid {
+.photo-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 16px;
-  margin: 0 50px 50px 65px; /*agregado en proyecto 6 */
+  margin: 0 50px 50px 65px;
 }
-.photo_grid_item {
+.photo-grid_item {
   width: 100%;
   border-radius: 5px;
 }
 
 @media (max-width: 1024px) {
-  .photo_grid {
+  .photo-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
   }
 }
 
 @media (max-width: 544px) {
-  .photo_grid {
+  .photo-grid {
     grid-template-columns: 1fr;
     gap: 8px;
   }

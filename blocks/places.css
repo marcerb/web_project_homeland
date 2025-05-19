@@ -34,7 +34,7 @@
   margin-bottom: 0px;
 }
 
-.place_image {
+.place__image {
   width: 100%;
   height: auto;
   border-radius: 5px;
@@ -47,7 +47,7 @@
   filter: brightness(50%);
 }
 
-.place_text {
+.place__text {
   font-size: 18px;
   line-height: 163%;
   font-weight: 400;
@@ -80,7 +80,7 @@
     font-size: 42px;
   }
 
-  .place_image {
+  .place__image {
     width: 100%;
     height: 70%;
   }
@@ -111,7 +111,7 @@
     height: auto;
   }
 
-  .place_text {
+  .place__text {
     margin: 0 20px;
   }
 
